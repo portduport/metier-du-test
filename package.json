@@ -1,12 +1,23 @@
 {
   "name": "exo1",
   "version": "1.0.0",
-  "description": "",
+  "description": "An HTML and JS calculator to test ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --coverage"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Pablo Callejo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/portduport/metier-du-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/portduport/metier-du-test/issues"
+  },
+  "homepage": "https://github.com/portduport/metier-du-test#readme",
+  "devDependencies": {
+    "jest": "^25.2.4"
+  }
 }
